@@ -1,11 +1,15 @@
-    // bruteforce solution O(nlogn)
+/*
+    ! Problem
+     https://practice.geeksforgeeks.org/problems/largest-element-in-array4009/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=largest-element-in-array
+*/
+
+
+    //! Bruteforce solution
+    // Time Complexity :  O(nlogn)
+    // Space Complexity : O(1) 
 class Solution
 {
 public:
-
-    // bruteforce solution
-    // Time Complexity :  O(nlogn)
-    // Space Complexity : O(n) 
     int largest(vector<int> &arr, int n)
     {
         sort(arr.begin(), arr.end());
@@ -13,14 +17,12 @@ public:
     }
 };
   
-    // optimized solution
+    //! Optimized solution
     // Time Complexity :  O(n)
     // Space Complexity : O(1) 
  class Solution
 {
 public:
-
-    // optimized solution O(n)
     int largest(vector<int> &arr, int n)
     {
         int max = arr[0];
