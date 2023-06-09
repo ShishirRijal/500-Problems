@@ -1,10 +1,10 @@
 /*
-    ! Problem
+    ! Problem - Peak Index in a Mountain Array
     https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 */
 
 
-// Time Complexity: O(n.logn)
+// Time Complexity: O(logn)
 // Space Complexity: O(1)
 class Solution {
 public:

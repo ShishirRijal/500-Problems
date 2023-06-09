@@ -4,7 +4,7 @@
 */
 
 
-// Time Complexity: O(n.logn)
+// Time Complexity: O(logn)
 // Space Complexity: O(1)
 
 class Solution {
