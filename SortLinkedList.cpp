@@ -23,7 +23,6 @@ ListNode* merge(ListNode* l1, ListNode* l2) {
         }
         tail = tail->next;
     }
-
     if (l1)
         tail->next = l1;
     else if (l2)
